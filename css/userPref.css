@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Roboto Mono;
+    src: url('/fonts/Roboto Mono/RobotoMono-Bold.ttf');
+}
+
+body {
+    background-image: url('../pic/worldMapWhite.jpg');
+    background-size: 50%;
+}
+
+.form {
+    border: blue 2px solid;
+    margin: 2% 30% 2% 30%;
+    padding: 2%;
+    font-family: Roboto Mono, monospace, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.form-Prefs {
+    margin-top: 20px;
+    background-image: url('../pic/brightColors.jpg');
+    color: cornsilk;
+}
+
+.form-birth {
+    background-image: url('../pic/calendar1.jpg');
+    color:black
+}
+
+.navPrefs {
+    background-image: url('../pic/brightColors.jpg');
+}
+
+button {
+    font-family: Roboto Mono, monospace, sans-serif;
+    border-radius: 8px;
+    width: 60%;
+    padding: 1%;
+    margin: 2%;
+    background-color:pink;
+    border: blue solid 2px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(21, 114, 190);
+    color: white;
+    cursor: pointer;
+
+  }

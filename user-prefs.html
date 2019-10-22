@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User-Prefs</title>
+    <link href="css/userPref.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <script src="js/utilService.js"></script>
+    <script src="js/userPrefService.js"></script>
+    <script src="js/placeService.js"></script>
+    <script src="js/controller.js"></script>
+
+    <form class="form form-Prefs" onsubmit="return false">
+        <lable for="colorTxt">Text color</lable>
+        <input class="txtColor" type="color" id="colorTxt" /><br>
+        <br>
+        <lable for="colorBgc">Backgroung color</lable>
+        <input class="bgcColor" type="color" id="colorBgc" />
+        <br>
+        <br>
+        <button class="set-colors" onclick="onSetColors()">Change colors</button>
+        <br>
+        <br>
+    </form>
+    
+
+    <form class="form form-birth" onsubmit="return false">
+            <label for="dob">Date of Birth</label>
+            <input type="date" class="dob" id="dob" name="dob" />
+            <br>
+            <br>
+            <label for="tob">Time of Birth</label>
+            <input type="time" class="tob" id="tob" name="tob" />
+            <br>
+            <br>
+            <button class="set-forecast" onclick="handleInfoSubmit()">Astrological Forecast</button><br>
+    </form>
+
+    <nav class="form navPrefs flex">
+        <a href="index.html" class="link-small" target="_blank">Main</a>
+        <a href="map.html" class="link-small" target="_blank">Map</a>
+    </nav>
+
+</body>
+
+</html>

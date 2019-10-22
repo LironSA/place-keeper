@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Map</title>
+    <link href="css/map.css" rel="stylesheet">
+
+
+</head>
+
+
+
+<body onload="init()">
+    <div id="map" style="width:80%;height:500px;"></div>
+    <br>
+    <button class="location"><img src="pic/location.png"></button>
+
+    <div class="place-list"></div>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLCGucvzQcFYLVzCx6iNW_WWr-Gw5j7cs">
+    </script>
+
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>Home</td>
+            <td></td>
+            <td>Office</td>
+            <td></td>
+            <td>Best coffee</td>
+        </tr>
+        <tr>
+            <th>Lan:</th>
+            <td>Lan</td>
+            <td></td>
+            <td>Lan</td>
+            <td></td>
+            <td>Lan</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Lat:</th>
+            <td>Lat</td>
+            <td></td>
+            <td>Lat</td>
+            <td></td>
+            <td>Lat</td>
+            <td></td>
+        </tr>
+    </table>
+
+
+    <nav>
+        <a href="index.html" class="link-small" target="_blank">Main</a><br>
+        <br>
+        <a href="user-prefs.html" class="link-small" target="_blank">User-Prefs</a>
+    </nav>
+
+
+    <script src="js/utilService.js"></script>
+    <script src="js/userPrefService.js"></script>
+    <script src="js/placeService.js"></script>
+    <script src="js/mapController.js"></script>
+
+</body>
+
+</html>

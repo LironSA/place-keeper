@@ -1,0 +1,75 @@
+body {
+    background: #008080;
+}
+
+main {
+    padding: 2% 0% 5% 2%;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.link {
+    font-size: 2rem;
+    width: 100%;
+    padding-left: 2%;
+    display: block;
+}
+
+.link-small {
+    font-size: 1rem;
+    width: 100%;
+    padding-left: 2%;
+}
+
+#map {
+    height: 50%;
+    width: 50%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.location img {
+    height: 40px;
+    width: 40px;
+}
+
+.location img {
+    cursor: pointer;
+}
+
+.mainText {
+    margin: 100px;
+    width: 50%;
+    padding: 10px;
+    float: right;
+    border: blue solid 2px;
+    align-items: center;
+    background-color: rgb(209, 9, 69);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mainPic {
+    margin: 50px;
+    width: 20%;
+    float: left;
+}
+
+nav {
+    margin: 100px;
+    width: 80%;
+    padding: 10px;
+    float: right;
+    border: blue solid 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(209, 9, 69);
+}

@@ -1,0 +1,74 @@
+body {
+    background: #008080;
+}
+
+.link {
+    font-size: 2rem;
+    width: 100%;
+    padding-left: 2%;
+    display: block;
+}
+
+.link-small {
+    font-size: 1rem;
+    width: 100%;
+    padding-left: 2%;
+}
+
+#map {
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.location img {
+    height: 40px;
+    width: 40px;
+}
+
+.location img {
+    cursor: pointer;
+}
+
+nav {
+    margin: 10px;
+    width: 85%;
+    padding: 10px;
+    float: left;
+    border: blue solid 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(209, 9, 69);
+}
+
+table {
+    
+    margin: 10px 20px 0 20px;
+    padding: 10px;
+    border: black solid 2px;
+    font-size: 20px;
+    
+}
+
+th {
+    text-align: left;
+    color: rgb(4, 4, 87);
+    padding-right: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+td {
+    text-align: left;
+    padding-right: 5px;
+    width: 100px;
+    height: 30px;
+}
